@@ -29,7 +29,7 @@ int main(int argc, char* argv[]) {
 	printf("usage: feature_csv <graph file>\n");
 	return 1;
   }
-  PNGraph G = TSnap::LoadEdgeList<PNGraph>(argv[1], 0, 1, ' ');
+  PUNGraph G = TSnap::LoadEdgeList<PUNGraph>(argv[1], 0, 1, ' ');
   PrintGraphStat(G);
   return 0;
 }
