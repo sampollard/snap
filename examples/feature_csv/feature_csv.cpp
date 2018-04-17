@@ -22,6 +22,7 @@ void PrintGraphStat(const PGraph& G) {
   TSnap::GetBfsEffDiam(G, 1000, false, EffDiam, FullDiam);
   printf("%d,", FullDiam);
   printf("%.2g", EffDiam);
+  printf("\n");
 }
 
 int main(int argc, char* argv[]) {
