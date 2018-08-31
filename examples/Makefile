@@ -17,6 +17,7 @@ MakeAll:
 	$(MAKE) -C coda
 	$(MAKE) -C community
 	$(MAKE) -C concomp
+	$(MAKE) -C feature_csv
 	$(MAKE) -C flows
 	$(MAKE) -C forestfire
 	$(MAKE) -C graphgen
